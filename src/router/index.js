@@ -2,6 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import team from '../views/team.vue'
+import teach from '../views/Teacher.vue'
+import quiz from '../views/quiz.vue'
+import view from '@/components/viewq.vue'
+import edit from '@/components/editq.vue'
+import addq from '@/components/addq.vue'
 
 Vue.use(VueRouter)
 
@@ -23,7 +28,34 @@ Vue.use(VueRouter)
     path:'/team',
     name:'team',
     component: team
+  },
+  {
+    path:'/teach',
+    name:'teach',
+    component: teach
+  },
+  {
+    path:'/Quiz',
+    name:'quiz',
+    component: quiz
+  },
+  {
+    path:'/view',
+    name:'view',
+    component: view
+  },
+  {
+    path:'/edit',
+    name:'edit',
+    component: edit
+  },
+  {
+    path:'/add',
+    name:'addq',
+    component: addq
   }
+
+
 ]
 
 const router = new VueRouter({

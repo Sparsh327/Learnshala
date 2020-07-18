@@ -130,6 +130,7 @@
         </b-col>
       </b-row>
     </b-container>
+    {{firebaseData}}
   </div>
 </template>
 <style >
@@ -159,8 +160,3 @@ h2 {
 }
 
 </style>
-<script>
-export default {
-  name: "team"
-};
-</script>

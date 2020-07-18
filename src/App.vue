@@ -23,9 +23,9 @@
 
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
-              <b-nav-item href="/about">About Us</b-nav-item>
+              <b-nav-item href="/Quiz">About Us</b-nav-item>
               <b-nav-item href="/team">Our Team</b-nav-item>
-              <b-navbar-brand href="#">
+              <b-navbar-brand href="/teach">
                 <b-button id="b" variant="success">LOGIN</b-button>
               </b-navbar-brand>
             </b-navbar-nav>
